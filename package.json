@@ -1,0 +1,26 @@
+{
+   "name": "tstemplate",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest",
+      "test-watch": "jest --watchAll",
+      "start": "tsc && node dist/index.js",
+      "build": "tsc",
+      "lint": "eslint . --ext .ts",
+      "lint-fix": "eslint --fix . --ext .ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/jest": "^25.2.1",
+      "@typescript-eslint/eslint-plugin": "^2.31.0",
+      "@typescript-eslint/parser": "^2.31.0",
+      "eslint": "^6.8.0",
+      "jest": "^26.0.1",
+      "ts-jest": "^25.4.0",
+      "typescript": "^3.8.3"
+   }
+}
